@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    min-width: 980px;
+    width: 100%;
+    color: #333333;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+/* header */
+.head {
+    margin: auto;
+    width: 980px;
+    height: 90px;
+    position: relative;
+    margin-top: 40px;
+}
+/* body */
+body a {
+    color: #3D9FC5;
+}
+.nav {
+    width: 980px;
+    margin: auto;
+    margin-top: 34px;
+}
+.head .logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    border: none;
+}
+.section {
+    width: 1000px;
+    margin: auto;
+}
+.article {
+    padding: 0 0 20px 0;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    width: 1000px;
+}
+h2 {
+    font-size: 35px;
+    color: #3da0c5;
+    border-bottom: 1px solid #3da0c5;
+    padding: 15px 0;
+    margin: 0 0 15px 0;
+    font-weight: normal;
+}
+.article {
+    display: block;
+}
+.text {
+    padding: 10px;
+    line-height: 1.8;
+}
+h3 span {
+    border-bottom: 1px solid #CCC;
+}
+h3 {
+    font-size: 21px;
+    margin: 15px 0;
+}
+.article_box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* footer */
+footer{
+    background-color: #3D9FC5;
+}
+.footerEnd {
+    margin: auto;
+    width: 980px;
+    padding-top: 23px;
+    padding-bottom: 37px;
+    font-size: 12px;
+}
+.footerEnd span.Copylight {
+    float: left;
+
+    color: white;
+    font-size: 10px;
+    font-family: 'Myriad Pro';
+}
+
+
+.container-top {
+    --offset: 100px;
+    --fade: 120px;
+  
+    display: flex;
+    align-items: flex-end;
+    width: 60px;
+    justify-self: end;
+    justify-content: flex-end;
+    -webkit-mask: linear-gradient(#0000 calc(100vh + var(--offset)), #000 calc(100vh + var(--offset) + var(--fade)));
+  }
+  
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: relative;
+    width: 50px;
+    height: 50px;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 9px; /* Place the button at the bottom of the page */
+    right: 15px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #3D9FC5; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    text-align: center;
+  }
+  
+  #myBtn::after {
+    position: absolute;
+    font-size: 32px;
+    content: "\2794";
+    bottom: 5px;
+    right: 11px;
+    transform: rotate(-90deg);
+}
+.privacyBody {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .privacyBody {
+        width: 100%;
+    }
+}

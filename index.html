@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="privacy.css" />
+    <title>Privacy</title>
+  </head>
+  <body class="privacyBody">
+    <header>
+      <div class="head">
+        <a href="/"
+          ><img alt="ホーユー" class="logo image" src="image/ci.png"
+        /></a>
+      </div>
+      <div class="nav"></div>
+    </header>
+    <section class="section" id="page_id">
+      <article class="article">
+        <h2>個人情報保護方針</h2>
+
+        <div class="article_box text">
+          <p>
+            株式会社ホーユーはプライバシー保護のために最大の注意を払っています。<br />
+            ホーユーが考えるプライバシーについては以下のとおりです。
+          </p>
+        </div>
+
+        <div class="text">
+          <h3><span>プライバシーの考え方が適用される範囲</span></h3>
+          <p>
+            プライバシーの考え方は、ユーザーがホーユーのサービスを利用しているときに適用されます。<br />また、ユーザーがホーユーのサービスを利用される際に収集された個人情報は、プライバシーの考え方に従って管理されます。ホーユーのプライバシーの考え方は、ホーユーの直接管理していない人や会社などには適用されません。
+          </p>
+        </div>
+
+        <div class="text">
+          <h3><span>情報の収集と利用</span></h3>
+          <p>
+            ユーザーはホーユーが運営するサービスに登録するとき、ホーユーはユーザーのお名前、メールアドレス、そのほか登録に必要な情報をお尋ねします。<br />またご利用いただくサービスによってさらに詳しい個人情報をお尋ねする場合があります。<br />なお収集した個人情報は、法令及び所管官庁のガイドラインに従い、厳格に管理します。
+          </p>
+        </div>
+
+        <div class="text">
+          <h3><span>利用目的</span></h3>
+          <p>
+            弊社は、お客様の個人情報を利用規約に基づくお客様へのホーユーサービスの提供と、これに付随する業務を行う目的の範囲で利用させていただきます。
+          </p>
+        </div>
+
+        <div class="text">
+          <h3><span>情報の共有と開示</span></h3>
+          <p>
+            ホーユーは、個人情報を販売したり貸し出すことは致しません。以下の場合に、ホーユーは個人情報を開示することがあります。
+          </p>
+          <ul class="ar_blue_s">
+            <li>情報開示や共有についてユーザーの同意がある場合</li>
+            <li>
+              ユーザーが希望する製品やサービスを提供するために、情報の開示や共有が必要と認められる場合
+            </li>
+            <li>
+              ユーザーに製品やサービスを提供する目的で、ホーユーからの委託を受けて業務を行う会社が情報を必要とする場合（ホーユーがユーザーに特にお知らせをした場合を除いて、こうした会社は、ホーユーが提供した個人情報を上記目的のために必要な限度を超えて利用することはできません。）
+            </li>
+            <li>
+              裁判所や警察等の公的機関から、法律に基づく正式な照会を受けた場合
+            </li>
+            <li>
+              ホーユーのサイト上でのユーザーの行為が、利用規約やガイドライン等に反し、ホーユーの権利、財産やサービス等を保護するため、必要と認められる場合
+            </li>
+            <li>
+              人の生命、身体および財産等に対する差し迫った危険があり、緊急の必要性がある場合
+            </li>
+          </ul>
+        </div>
+
+        <div class="text">
+          <h3><span>クッキーについて</span></h3>
+          <p>
+            ホーユーはホーユーのクッキーをユーザーのコンピュータに設定し、アクセスすることがあります。
+          </p>
+        </div>
+
+        <div class="text">
+          <h3><span>プライバシーポリシーの改訂について</span></h3>
+          <p>
+            今後、ホーユーはプライバシーの考え方の全部または一部を改訂することがあります。<br />重要な変更がある場合には、ホーユーのページ上において分かりやすい方法でお知らせします。
+          </p>
+        </div>
+      </article>
+    </section>
+    <footer>
+      <nav>
+        <div class="footerEnd">
+          <span class="Copylight"
+            >Copyright©HOYU CO.,LTD All Right Reserved.</span
+          >
+        </div>
+      </nav>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+  </body>
+  <script>
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</html>
