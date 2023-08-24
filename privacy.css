@@ -128,7 +128,29 @@ footer{
     right: 11px;
     transform: rotate(-90deg);
 }
-.privacyBody {
-    width: 100%;
-}
 
+@media only screen  and (max-width: 63.9375em) {
+    .head{
+        width: 100%;     
+    }
+    .section{
+        width: 100%;
+    }
+    .footerEnd{
+        width: 100%;
+    } 
+    .nav{
+        width: 100%;     
+    }
+}
+/* @media only screen  and (max-width: 46.25em) {
+    .privacyBody{
+        width: 100%;     
+    }
+    .section{
+        width: 100%;
+    }
+    .footerEnd{
+        width: 100%;
+    } 
+} */
